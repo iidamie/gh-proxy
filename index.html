@@ -125,7 +125,7 @@
   </style></head>
 <body class="flex">
 <h1 style="margin-bottom: 50px">GitHub 文件加速</h1>
-<form action="https://hunshcn.github.io/gh-proxy/" method="get" style="padding-bottom: 40px" target="_blank" class="flex" onsubmit="toSubmit(event)">
+<form action="./" method="get" style="padding-bottom: 40px" target="_blank" class="flex" onsubmit="toSubmit(event)">
     <label class="block" style="width: fit-content">
         <input class="block url" name="q" type="text" placeholder="键入Github文件链接" pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob|raw|suites)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$" required="">
         <div class="bar"></div>
@@ -135,7 +135,7 @@
         <p>git clone</p>
         <p>git clone https://gh.damie.cf/https://github.com/stilleshan/ServerStatus</p>
         <p>git clone私有仓库</p>
-        <p></p>Clone 私有仓库需要用户在 <a href="https://github.com/settings/tokens" target="_blank">Personal access tokens</a> 申请 Token 配合使用. <br>git clone<font color="red">https://</font><b>user:your_token<font color="red">@gh.damie.cf/</font><font color="green">https://github.com/your_name/your_private_repo</font></p>
+        <p></p>Clone 私有仓库需要用户在 <a href="https://github.com/settings/tokens" target="_blank">Personal access tokens</a> 申请 Token 配合使用. <br>git clone https://user:your_token@gh.damie.cf/https://github.com/your_name/your_private_repo</p>
         <p>wget & curl</p>
         <p>wget https://gh.damie.cf/https://github.com/stilleshan/ServerStatus/archive/master.zip<br>wget https://gh.damie.cf/https://raw.githubusercontent.com/stilleshan/ServerStatus/master/Dockerfile<br>curl -O https://gh.damie.cf/https://github.com/stilleshan/ServerStatus/archive/master.zip<br>curl -O https://gh.damie.cf/https://raw.githubusercontent.com/stilleshan/ServerStatus/master/Dockerfile</p>
     </div>
